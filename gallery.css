@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Style+Script&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(179, 155, 119, 0.623);
+}
+.container {
+   width: 100%;
+   padding: 20px;
+}
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-family: Dancing Script;
+    font-size: 5em;
+}
+.tile {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;  
+}
+.holder {
+    padding: 10px;
+    background-image: url(placeholder-image.png);
+    background-size: contain;
+}
+.imag {
+    width: 230px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 0px;
+    display: block;
+}
+.holder h2 {
+    text-align: center;
+    font-family: Dancing Script;
+    font-size: 1.8em;
+    border: 1px solid white;
+    margin-top: 0px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 2px;
+}
+.container p {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 10px 25px;
+}
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    .imag {
+        width: 300px;
+    }
+    .holder h2 {
+        font-size: 1.5em;
+    }   
+}
+@media screen and (min-width: 501px) and (max-width: 810px){
+    h1 {
+        font-size: 3.5em;
+    }
+    .imag {
+        width: 270px;
+    }
+    .holder h2 {
+        font-size: 1.7em;
+    }   
+}
+@media screen and (min-width:1024px) {
+    h1 {
+        font-size: 5em;
+    }
+    .imag {
+        width: 230px;
+    }
+    .holder h2 {
+        font-size: 1.8em;
+    }   
+}
+
+
+
+
+/* z-index pentru div-ul albastru din spate */
